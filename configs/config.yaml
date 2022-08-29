@@ -1,0 +1,29 @@
+# logger options
+snapshot_save_itr: 1
+log_itr: 500
+test_itr: 5000
+
+# optimization options
+max_itr: 4000000
+lr: 0.0001
+lr_aux: 0.001
+lr_shedule_step: 1000000
+lr_shedule_scale: 0.5
+clip_max_norm: 1
+
+# fine-tuning options
+set_lr: 0
+
+# model hyperparamters
+N: 192
+M: 192
+sft_ks: 3
+
+# data options
+trainset: ./data/flicker_train.csv
+testset: ./data/kodak.csv
+batchsize: 8
+batchsize_test: 1
+patchsize: 256
+worker_num: 3
+p: 0.3
