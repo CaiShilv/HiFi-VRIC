@@ -34,7 +34,7 @@ At least 12GB GPU memory is needed for the default training setting.
 
 ## Evaluation
 `$ python eval.py --snapshot=./results/your_instance_name/snapshots/best.pt --testset=./data/your_testset.csv`
-We release the [pretrained model](h). You can download and put it in `results` directory.
+We release the [pretrained model](https://pan.baidu.com/s/1oQAEpTiYiz07wzpNB4PQJQ). The extracted password is: `HFVR`. You can download and put it in `results` directory.
 
 Note that as mentioned in original [CompressAI](https://github.com/InterDigitalInc/CompressAI), "Inference on GPU is not recommended for the autoregressive models (the entropy coder is run sequentially on CPU)." So for inference of our model, please run on CPU.
 
