@@ -13,7 +13,7 @@ Install needed packages.
 - `$ pip install compressai==1.1.8`
 
 ## Dataset
-- Training set: [Flicker 2W](https://www.flickr.com/photos/) about 20745 images, Run the data preprocessing file ./scripts/flicker_process.py
+- Training set: [Flicker 2W](https://www.flickr.com/photos/) about 20745 images or [here](https://github.com/liujiaheng/CompressionData). Run the data preprocessing file ./scripts/flicker_process.py
 - Test set: [Kodak dataset](http://r0k.us/graphics/kodak/), [CLIC](http://clic.compression.cc/2021/tasks/index.html), [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
 Run following command in `scripts` directory  to create your_trainset.csv and your_testset.csv.
