@@ -38,8 +38,3 @@ We release the [pretrained model](https://pan.baidu.com/s/1oQAEpTiYiz07wzpNB4PQJ
 
 Note that as mentioned in original [CompressAI](https://github.com/InterDigitalInc/CompressAI), "Inference on GPU is not recommended for the autoregressive models (the entropy coder is run sequentially on CPU)." So for inference of our model, please run on CPU.
 
-## Acknowledgement
-
-Our code is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI).
-
-Part of the codes benefit from [InvCompress](https://github.com/xyq7/InvCompress.git) and [QmapCompression](https://github.com/micmic123/qmapcompression).
