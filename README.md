@@ -38,3 +38,14 @@ We release the [pretrained model](https://pan.baidu.com/s/1oQAEpTiYiz07wzpNB4PQJ
 
 Note that as mentioned in original [CompressAI](https://github.com/InterDigitalInc/CompressAI), "Inference on GPU is not recommended for the autoregressive models (the entropy coder is run sequentially on CPU)." So for inference of our model, please run on CPU.
 
+## Citation
+If you find this work useful for your research, please cite:
+'''
+@inproceedings{cai2022high,
+  title={High-Fidelity Variable-Rate Image Compression via Invertible Activation Transformation},
+  author={Cai, Shilv and Zhang, Zhijun and Chen, Liqun and Yan, Luxin and Zhong, Sheng and Zou, Xu},
+  booktitle={Proceedings of the 30th ACM International Conference on Multimedia},
+  pages={2021--2031},
+  year={2022}
+}
+'''
