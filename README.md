@@ -40,7 +40,7 @@ Note that as mentioned in original [CompressAI](https://github.com/InterDigitalI
 
 ## Citation
 If you find this work useful for your research, please cite:
-'''
+```
 @inproceedings{cai2022high,
   title={High-Fidelity Variable-Rate Image Compression via Invertible Activation Transformation},
   author={Cai, Shilv and Zhang, Zhijun and Chen, Liqun and Yan, Luxin and Zhong, Sheng and Zou, Xu},
@@ -48,4 +48,4 @@ If you find this work useful for your research, please cite:
   pages={2021--2031},
   year={2022}
 }
-'''
+```
