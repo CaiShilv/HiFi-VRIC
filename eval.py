@@ -12,6 +12,8 @@ from losses.losses import Metrics, PixelwiseRateDistortionLoss
 import numpy as np
 
 from models import pad
+torch.backends.cudnn.deterministic = True
+torch.set_num_threads(1)
 os.environ['CUDA_VISIBLE_DEVICES'] = ""
 def parse_args(argv):
     parser = argparse.ArgumentParser(description='HiFi_VRIC Evaluation')
@@ -127,7 +129,7 @@ def main(argv):
     model = model.to(device)
     itr, model = load_checkpoint(args.snapshot, model, only_net=True, Is_train=False)
     model.eval()
-    model.update()
+    model.update(force=True)
     test(test_dataloaders, model, criterion, metric)
 
 
