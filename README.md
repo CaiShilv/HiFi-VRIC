@@ -48,4 +48,13 @@ If you find this work useful for your research, please cite:
   pages={2021--2031},
   year={2022}
 }
+
+@article{cai2024I2C,
+  author={Cai, Shilv and Chen, Liqun and Zhang, Zhijun and Zhao, Xiangyun and Zhou, Jiahuan and Peng, Yuxin and Yan, Luxin and Zhong, Sheng and Zou, Xu},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={I2C: Invertible Continuous Codec for High-Fidelity Variable-Rate Image Compression}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-18}
 ```
